@@ -1,8 +1,8 @@
 package com.inuvens.api.dtos;
 
 import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.NotEmpty;
 import org.hibernate.validator.constraints.br.CNPJ;
-import javax.validation.constraints.NotEmpty;
 
 public class EmpresaDto {
 	
@@ -11,8 +11,7 @@ public class EmpresaDto {
 	private String cnpj;
 	
 	
-	public EmpresaDto() {
-		
+	public EmpresaDto() {		
 	}
 
 	public Long getId() {
